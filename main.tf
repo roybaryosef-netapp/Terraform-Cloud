@@ -13,7 +13,7 @@ provider "spotinst" {
    account = "var.spot_account"
 }
 
-resource "spotinst_elastigroup_aws" "terraform" {
+resource "spotinst_elastigroup_aws" "Terraform" {
   name = "Roy Terraform Git"
 
   spot_percentage = 100
