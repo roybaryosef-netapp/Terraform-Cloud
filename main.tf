@@ -9,8 +9,8 @@ terraform {
 
 
 provider "spotinst" {
-   token   = var.spotinst_token
-   account = var.spotinst_account
+   token   = var.spot_token
+   account = var.spot_account
 }
 
 resource "spotinst_elastigroup_aws" "Terraform" {
