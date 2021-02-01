@@ -9,8 +9,8 @@ terraform {
 
 
 provider "spotinst" {
-  token   = "b04f3efa399608aa79d29de47779cff8f29d5878fbe0c02841e51b5684801b33"
-  account = "act-54c5d1ab"
+  token   = ""
+  account = ""
 }
 
 resource "spotinst_elastigroup_aws" "Terraform" {
