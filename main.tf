@@ -28,7 +28,7 @@ resource "spotinst_elastigroup_aws" "Terraform" {
     perform_at = "always"
   }
 
-  desired_capacity = 2
+  desired_capacity = 3
 
   min_size = 1
 
